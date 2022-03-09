@@ -10,5 +10,7 @@ First you go to the wikipedia page you want to download.
 Then you press "Download as PDF".  
 If you can't find this option check: https://en.wikipedia.org/wiki/Help:Download_as_PDF.  
 
-## BEFORE YOU RUN THE FILE USE 'sudo apt install pdftohtml'
-This is so you can use the command 'less' to open the PDF.  
+## Before you run the file use the command 'sudo apt install pdftohtml' in your bash.
+This is so you can use the command 'less' to open the PDF and read the file.
+
+The output of this file gives 253 times 'de'.
