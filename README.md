@@ -4,6 +4,7 @@ Thijmen Adam, s4882067
 
 ## This github
 This github contains a txt file, Shellscript file and a txt file of https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen. (Last updated on 15/03/2022)  
+The Shellscript in this GitHub finds all the times the word 'de' appears in the Wikipedia page of the Rijksuniversiteit Groningen.  
 
 
 ## Text file 
