@@ -18,7 +18,8 @@ The program can be run on Ubuntu 20.04.3 LTS
 
 Downloading and using the script can be done by using the following commands:  
 
-``` git clone https://github.com/thijmenadam0/ITRM.git  
+```
+git clone https://github.com/thijmenadam0/ITRM.git  
 cd ITRM  
 find_de.sh wiki.txt
 ```  
