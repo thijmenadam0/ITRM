@@ -22,7 +22,7 @@ Downloading and using the script can be done by using the following commands:
 ```
 git clone https://github.com/thijmenadam0/ITRM.git  
 cd ITRM  
-bash find_de.sh wiki.txt
+bash find_de.sh rug.txt
 ```  
 
 The output of this file gives 252 times 'de' (case-insensitive).
