@@ -1,16 +1,25 @@
-# Introduction to Research Methods
+# Introduction to Research Methods, Milestone 5
+Thijmen Adam, s4882067
 
-Sharing the code for the fifth milestone for Introduction to Research Methods.  
-For this milestone I used a PDF file.  
-The data I used is available, you could also grab your own Wikipedia PDF.  
 
-## Steps on how to download the PDF file. (Or just download the one I uploaded to GitHub)
+## This github
+This github contains a txt file, Shellscript file and a txt file of https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen. (Last updated on 15/03/2022)  
 
-First you go to the wikipedia page you want to download.  
-Then you press "Download as PDF".  
-If you can't find this option check: https://en.wikipedia.org/wiki/Help:Download_as_PDF.  
 
-## Before you run the file use the command 'sudo apt install pdftohtml' in your bash.
-This is so you can use the command 'less' to open the PDF and read the file.
+## Text file 
+The data we had to use was the Rijksuniversiteit Groningen Wikipedia.  
+You can put this into a txt file by selecting it all and
+pasting it in the txt file (can be done with ctrl + A)
+I uploaded the Wikipedia RUG txt file as well but you could also grab your own txt file.  
 
-The output of this file gives 253 times 'de'.
+## The program
+
+The program can be run on Ubuntu 20.04.3 LTS
+
+Downloading and using the script can be done by using the following commands:  
+
+``` git clone https://github.com/thijmenadam0/ITRM.git  
+cd ITRM  
+find_de.sh wiki.txt```  
+
+The output of this file gives 252 times 'de' (case-insensitive).
