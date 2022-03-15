@@ -1,16 +1,14 @@
 #!/bin/bash
 
-# sudo apt install pdftohtml
-
-# Opens a PDF file, if one hasn't been given, asks you to specify a PDF file.
+# Opens a txt file, if one hasn't been given, asks you to specify a txt file.
 TEXT=$1
 if [ -z "$TEXT" ]
 then
-    echo "Please specify which PDF file you want to use."
+    echo "Please specify which txt file you want to use."
     exit
 fi
 
 # Checks the text file and looks for all the times 'de' or 'De' appears in the text and counts it
-less $TEXT | grep -wio 'de' | wc -w 
+cat $TEXT | grep -wio 'de' | wc -w
 
 # The output was 253 times the word 'de'
