@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Opens a txt file, if one hasn't been given, asks you to specify a txt file.
+# The code on how to open the file has been adapted from M. Bartelds, from the course 'Introduction to Research Methods.'
 TEXT=$1
 if [ -z "$TEXT" ]
 then
